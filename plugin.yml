@@ -1,0 +1,20 @@
+name: NarwhalCore
+main: Narwhal\Main
+version: 0.0.1
+api: 3.0.0-ALPHA8
+load: POSTWORLD
+author: NickTehUnicorn
+description: NarwhalPE core plugin.
+commands:
+ smsg:
+  description: "Send yourself a message."
+  permission: op
+ 
+ info:
+  description: Get info about NarwhalPE
+  pernission: true
+permissions:
+ smsg.use:
+  default: op
+  description: "Send yourself a message."
+  children:  
