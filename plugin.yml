@@ -1,10 +1,10 @@
-name: NarwhalCore
+name: RPCore
 main: Narwhal\Main
 version: 0.0.1
 api: 3.0.0-ALPHA8
 load: POSTWORLD
 author: NickTehUnicorn
-description: NarwhalPE core plugin.
+description: RPCore plugin by NarwhalPE
 commands:
  smsg:
   description: "Send yourself a message."
