@@ -14,8 +14,8 @@ use pocketmine\level\Position;
 
 class Main extends PluginBase implements Listener{
 	
-	public $prefix = (c::AQUA . "[" . c::YELLOW . "NarwhalPE" . c::AQUA . "] ");
-	public $noperm = (c::RED . "You don't have permission to use this command.");
+	public $prefix = (c::AQUA . "[" . c::GREEN . "RPNetwork" . c::AQUA . "] ");
+	public $noperm = (c::RED . "|You don't have permission to use this command!|.");
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getLogger()->info(c::GREEN .  "enabled!");
