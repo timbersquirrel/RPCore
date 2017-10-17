@@ -17,7 +17,7 @@ public $playername;
 	public function onRun(int $tick){
 	$player = $this->getOwner()->getServer()->getPlayer($this->playername());
 		if($player instanceof Player){
-			$player->addTitle("§cN6a§er§aw§bh§da§5l§fPE", "§7Welcome!", -1, 5*20, 30);
+			$player->addTitle("§aR§eP§bFactions, "§7Welcome!", -1, 5*20, 30);
 		}
 	}
 }
