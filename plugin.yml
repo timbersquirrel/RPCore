@@ -1,7 +1,7 @@
 name: RPCore
 main: Narwhal\Main
 version: 0.0.1
-api: 3.0.0-ALPHA8
+api: [3.0.0-ALPHA8]
 author: NickTehUnicorn
 load: POSTWORLD
 description: RPCore plugin by NarwhalPE
@@ -12,7 +12,7 @@ commands:
  
  info:
   description: Get info about NarwhalPE
-  pernission: op
+  pernission: true
 permissions:
  smsg.use:
   default: op
